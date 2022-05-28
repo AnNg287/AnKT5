@@ -1,4 +1,4 @@
-package com.vtmsoft.ltsp10.models;
+package com.vtmsoft.sales.models;
 
 import java.util.ArrayList;
 

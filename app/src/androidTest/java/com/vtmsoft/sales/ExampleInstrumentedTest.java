@@ -1,4 +1,4 @@
-package com.vtmsoft.ltsp10;
+package com.vtmsoft.sales;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.vtmsoft.ltsp10", appContext.getPackageName());
+        assertEquals("com.vtmsoft.sales", appContext.getPackageName());
     }
 }

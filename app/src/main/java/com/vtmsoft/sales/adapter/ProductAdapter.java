@@ -1,23 +1,19 @@
-package com.vtmsoft.ltsp10.adapter;
+package com.vtmsoft.sales.adapter;
 
 import android.app.Activity;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-
-
-import com.vtmsoft.ltsp10.R;
-import com.vtmsoft.ltsp10.models.Product;
+import com.vtmsoft.sales.R;
+import com.vtmsoft.sales.models.Product;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-
-public class ProductAdapter extends ArrayAdapter {
+public class ProductAdapter  extends ArrayAdapter {
     Activity activity;//activity chứa listview
     public ProductAdapter(Activity activity, ArrayList products) {
         super(activity, 0, products);
@@ -32,7 +28,7 @@ public class ProductAdapter extends ArrayAdapter {
         if (convertView == null)
         {
             LayoutInflater inflater = activity.getLayoutInflater();
-            convertView = inflater.inflate(R.layout.item_product,null);
+            convertView = inflater.inflate(R.layout.listitem_product,null);
         }
         //lấy các textview trong mỗi view
         TextView tvProductName = (TextView)convertView
