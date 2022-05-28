@@ -1,4 +1,4 @@
-package com.vtmsoft.sales.models;
+package com.vtmsoft.ltsp10.models;
 
 public class Product {
     private String ProductName;

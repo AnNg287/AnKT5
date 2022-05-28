@@ -1,4 +1,4 @@
-package com.vtmsoft.sales;
+package com.vtmsoft.ltsp10;
 
 import org.junit.Test;
 
